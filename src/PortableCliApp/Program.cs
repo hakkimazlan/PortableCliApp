@@ -9,7 +9,7 @@ using PortableCliApp;
  */
 
 Console.WriteLine("Cross-platform .NET 10 CLI demonstration");
-Console.WriteLine("========================================");
+Console.WriteLine("Testing...");
 Console.WriteLine();
 
 /*
@@ -40,7 +40,7 @@ Console.WriteLine();
 /*
  * Function 2: Add two integers.
  */
-const int firstNumber = 20;
+const int firstNumber = 12;
 const int secondNumber = 22;
 
 int total = ApplicationFunctions.Add(firstNumber, secondNumber);
