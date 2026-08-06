@@ -19,7 +19,7 @@ pipeline {
         /*
         * Place the URL for your remote repo (GitHub, BitBucket) here
         */
-        REMOTE_REPO_URL = 'https://github.com/hakkimazlan/PortableCliApp.git'
+        REMOTE_REPO_URL = 'https://github.com//PortableCliApp.git'
 
 
         SOLUTION_FILE = 'PortableCliApp.slnx'
@@ -70,6 +70,12 @@ pipeline {
                     rm -rf "${PUBLISH_DIRECTORY}"
 
                 '''
+            }
+        }
+
+        stage('Dummy') {
+            steps {
+              echo 'Some random statement to demonstrate change'
             }
         }
 
