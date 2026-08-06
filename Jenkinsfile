@@ -19,7 +19,7 @@ pipeline {
         /*
         * Place the URL for your remote repo (GitHub, BitBucket) here
         */
-        REMOTE_REPO_URL = 'https://github.com/mnorhakkim/PortableCliApp.git'
+        REMOTE_REPO_URL = 'https://github.com/hakkimazlan/PortableCliApp.git'
 
 
         SOLUTION_FILE = 'PortableCliApp.slnx'
